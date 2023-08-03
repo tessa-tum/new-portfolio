@@ -1,10 +1,10 @@
 import React from "react";
-import filmflixAngular from "../assets/filmflix-angular.png";
-import filmflixReact from "../assets/filmflix-react.png";
-import filmflixApi from "../assets/filmflix-api.png";
+import filmflixAngularApp from "../assets/filmflix-angular-app.png"
+import filmflixReactApp from "../assets/filmflix-react-app.png"
+import filmflixApiApp from "../assets/filmflix-api-app.png"
 import devtrecApp from "../assets/devtrec-app.png"
-import chatApp from "../assets/chat-app.png";
-import pokedexApp from "../assets/pokedex-app.png";
+import nativeChatApp from "../assets/native-chat-app.png"
+import pokeDexApp from "../assets/poke-dex-app.png"
 
 const Projects = () => {
 
@@ -26,7 +26,7 @@ const Projects = () => {
           <div className="item-image">
             <img
               className="transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0"
-              src={filmflixAngular}
+              src={filmflixAngularApp}
               alt="placeholder-app-screenshot"
               width="100%"
             />
@@ -62,7 +62,7 @@ const Projects = () => {
           <div className="item-image">
             <img
               className="transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0"
-              src={filmflixReact}
+              src={filmflixReactApp}
               alt="placeholder-app-screenshot"
               width="100%"
             />
@@ -99,7 +99,7 @@ const Projects = () => {
           <div className="item-image">
             <img
               className="transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0"
-              src={filmflixApi}
+              src={filmflixApiApp}
               alt="placeholder-app-screenshot"
               width="100%"
             />
@@ -169,7 +169,7 @@ const Projects = () => {
           <div className="item-image">
             <img
               className="transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0"
-              src={chatApp}
+              src={nativeChatApp}
               alt="pokedex-app-screenshot"
               width="100%"
             />
@@ -198,7 +198,7 @@ const Projects = () => {
           <div className="item-image">
             <img
               className="transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0"
-              src={pokedexApp}
+              src={pokeDexApp}
               alt="placeholder-app-screenshot"
               width="100%"
             />
