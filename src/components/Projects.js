@@ -1,8 +1,8 @@
 import React from "react";
 import filmflixAngular from "../assets/filmflix-angular.png";
-import filmflixReact from "../assets/filmflix-react.PNG";
-import filmflixApi from "../assets/filmflix-api.PNG";
-import devtrec from "../assets/devtrec.PNG";
+import filmflixReact from "../assets/filmflix-react.png";
+import filmflixApi from "../assets/filmflix-api.png";
+import devtrec from "../assets/devtrec.png";
 import chatApp from "../assets/chat-app.png";
 import pokedexApp from "../assets/pokedex-app.png";
 
