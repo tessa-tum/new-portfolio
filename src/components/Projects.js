@@ -2,12 +2,12 @@ import React from "react";
 import filmflixAngular from "../assets/filmflix-angular.png";
 import filmflixReact from "../assets/filmflix-react.png";
 import filmflixApi from "../assets/filmflix-api.png";
-import devtrec from "../assets/devtrec.png";
+import devtrecApp from "../assets/devtrec-app.png"
 import chatApp from "../assets/chat-app.png";
 import pokedexApp from "../assets/pokedex-app.png";
 
 const Projects = () => {
-  
+
   return (
     <section id="projects" className="bg-mediumblue text-white px-9 sm:px-16 py-32">
       <div className="container mx-auto grid md:grid-cols-2 items-center md:justify-between">
@@ -134,7 +134,7 @@ const Projects = () => {
           <div className="item-image">
             <img
               className="transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0"
-              src={devtrec}
+              src={devtrecApp}
               alt="placeholder-app-screenshots"
               width="100%"
             />
