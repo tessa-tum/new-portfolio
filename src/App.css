@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -11,10 +11,11 @@ body {
   font-family: monospace;
 }
 
-.projects img {
-    width: 100%;
+.main-btn {
+  @apply inline-flex items-center space-x-2 font-mono px-6 py-3 border-white border rounded-md hover:bg-white;
 }
 
+/* navbar */
 
 nav li a {
   @apply px-4 py-8 text-lg text-white;
@@ -25,15 +26,11 @@ nav li a:hover {
 }
 
 .mobile-nav {
-  @apply fixed w-full top-16 bg-darkblue py-8 z-10 transition-transform duration-500 border-b-2 border-lightblue border-opacity-20 md:border-b-0;
-
-
- 
+  @apply fixed w-full top-16 bg-darkblue py-8 z-10 transition-transform 
+  duration-500 border-b-2 border-lightblue border-opacity-20 md:border-b-0;
 }
 
-
-
-
+/* projects section*/
 
 .projects-grid-item {
   box-shadow: 5px 5px 5px 5px #101326;
@@ -55,7 +52,5 @@ nav li a:hover {
   margin-bottom: 25px;
 }
 
-.main-btn {
-  @apply inline-flex items-center space-x-2 font-mono px-6 py-3 border-white border rounded-md hover:bg-white;
-}
+
 

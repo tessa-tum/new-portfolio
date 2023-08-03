@@ -1,5 +1,5 @@
 import React from "react";
-import curlyBracketsStage from "../assets/curly-brackets-stage.svg"
+import curlyBracketsStage from "../assets/curly-brackets-stage.svg";
 
 const Stage = () => {
   return (
@@ -8,11 +8,11 @@ const Stage = () => {
         <div className="stage-info md:pb-0">
           <h1 className="font-bold text-3xl sm:text-5xl md:text-5xl lg:text-6xl tracking-tight leading-tight mb-8 sm:mb-12">
           Hello! <br/>
-          I'm <span className="text-lightblue">Tessa</span>, a Fullstack Developer based in Berlin, Germany.
+          I'm <span className="text-lightblue">Tessa</span>, a full-stack web developer based in Berlin, Germany.
         </h1>
 
           <p className="text-lg mb-10">
-          I have a multi-displiplinary background and am passionate about building things for the web.
+          With a diverse range of skills and experience, I am deeply passionate about building things for the web.
           </p>
 
           <a
@@ -29,7 +29,7 @@ const Stage = () => {
           <img
           src={curlyBracketsStage}
             alt="placeholder-img"
-            className="mr-auto ml-auto mt-auto md:w-40 lg:w-60 xl:w-60 hidden lg:flex"
+            className="mr-auto ml-auto mt-auto md:w-40 lg:w-60 xl:w-60 hidden lg:flex animate-spin-slow"
           />
         </div>
 

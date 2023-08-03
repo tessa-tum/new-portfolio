@@ -1,5 +1,5 @@
 import React from "react";
-import suareBracketsSkills from "../assets/square-brackets-skills.svg"
+import suareBracketsSkills from "../assets/square-brackets-skills.svg";
 
 const Skills = () => {
   return (

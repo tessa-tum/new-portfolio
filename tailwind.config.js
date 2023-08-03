@@ -20,8 +20,13 @@ module.exports = {
       project5color: 'hsl(261deg 27% 35%)',
       project6color: 'hsl(217deg 63% 38%)',
     },
-    
-    extend: {},
+
+    extend: {
+
+      animation: {
+        'spin-slow': 'spin 3s linear',
+      }
+    },
   },
   plugins: [],
 }

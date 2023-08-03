@@ -1,5 +1,5 @@
 import React from "react";
-import tagBracketsAbout from "../assets/tag-brackets-about.svg"
+import tagBracketsAbout from "../assets/tag-brackets-about.svg";
 
 const About = () => {
   return (
@@ -10,28 +10,29 @@ const About = () => {
           </h2>
 
           <p className="pb-5 text-lg">
-            As a freshly trained fullstack web developer, I take great pleasure in
-            merging my previous experience of 6+ years in political communications
-            with my new <span className="text-tang">passion for building things for the web</span>.
+            As a  <span className="text-tang">freshly trained full-stack web developer</span>, I find great joy in combining my previous
+            experience of over 6 years in political communications with my newfound
+            passion for web devlopment.
           </p>
           <p className="pb-5 text-lg">
-            Formerly, I have worked with <span className="text-tang">stakeholders of all backgrounds</span>, for example the German government,
-            political foundations and NGOs, to identify pain points in their (mostly digital) communication efforts
-            and how to smooth them out.
+            <span className="text-tang">Previously</span>, I had the opportunity to collaborate with stakeholders of all backgrounds,
+            including the German government, political foundations and NGOs, where I honed my skills in identifying pain points
+            within their digital communication efforts and implementing effective solutions.
           </p>
           <p className="pb-5 text-lg">
-            Lately, I decided to pursue a dream of mine and enrolled in CareerFoundry's <span className="text-tang">Full-Stack Web 
-            Development Program</span>, to learn about JavaScript, Typescript, React, Angular ... and much more.
+            <span className="text-tang">Recently</span>, I decided to pursue a dream of mine and enrolled in CareerFoundry's Full-Stack Web
+            Development Program. Through this program, I have gained expertise in JavaScript, TypeScript, React, Angular,
+            and a range of other technologies.
           </p>
           <p className="pb-5 text-lg">
-            Now I am eager to <span className="text-tang">develop more software</span> and to keep working as a
-              detail-oriented web developer with a wide-angle view on all parts of the development process.
+            <span className="text-tang">Now </span>I am eager to further expand my software development skills and continue working
+            as a detail-oriented developer who approaches projects with a comprehensive understanding of the development process.
           </p>
         </div>
 
         <div className="about-img">
           <img
-          src={tagBracketsAbout}
+            src={tagBracketsAbout}
             alt="placeholder-img"
             className="mr-auto ml-auto mt-auto md:w-40 lg:w-60 xl:w-60 hidden lg:flex"
           />

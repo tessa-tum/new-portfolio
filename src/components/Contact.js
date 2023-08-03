@@ -1,5 +1,5 @@
 import React from "react";
-import roundBracketsContact from "../assets/round-brackets-contact.svg"
+import roundBracketsContact from "../assets/round-brackets-contact.svg";
 import {
   PiLinkedinLogoThin,
   PiGithubLogoThin,
@@ -35,6 +35,8 @@ const Contact = () => {
             <a
               href="https://de.linkedin.com/in/tessa-tumbraegel"
               className="pr-4 inline-block text-pink hover:text-white"
+              target="_blank" 
+              rel="noreferrer"
             >
               {" "}
               <PiLinkedinLogoThin size={44} />{" "}
@@ -42,6 +44,8 @@ const Contact = () => {
             <a
               href="https://github.com/tessa-tum"
               className="pr-4 inline-block text-pink hover:text-white"
+              target="_blank" 
+              rel="noreferrer"
             >
               {" "}
               <PiGithubLogoThin size={44} />{" "}
