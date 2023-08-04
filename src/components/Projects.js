@@ -15,23 +15,23 @@ const Projects = () => {
           <h2 className="text-3xl sm:text-4xl lg:text-5xl mb-8 sm:mb-12 text-white">Projects
           </h2>
           <p className="mb-12 text-lg">
-            Check out some of my projects.
+            Here is a list of some of my projects.
           </p>
         </div>
       </div>
 
       <div className="projects container mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-11 text-lg">
 
-        <div className="projects-grid-item" >
+        <div className="projects-grid-item shadow-lg shadow-[black] rounded-md min-h-full" >
           <div className="item-image">
             <img
-              className="transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0"
+              className="transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 rounded-md"
               src={filmflixAngularApp}
               alt="placeholder-app-screenshot"
               width="100%"
             />
           </div>
-          <div className="item-text">
+          <div className="item-text p-8">
             <h4 className="text-xl sm:text-2xl tracking-tighter text-green mb-2 mt-2 sm:mb-4 sm:mt-4">filmflix Angular</h4>
             <p>
               filmflix is a comprehensive full-stack web application that serves as a movie database and offers a seamless user
@@ -39,17 +39,17 @@ const Projects = () => {
               intuitive UI. This UI complements a pre-existing RESTful API and MongoDB database, which can also be found here
               (see filmflix API).
             </p>
-            <div className="item-links space-y-4">
+            <div className="item-links space-y-4 mt-8 mb-2">
               <a
                 href="https://tessa-tum.github.io/filmflix-Angular-client/"
-                className="btn px-4 py-2 mr-5 rounded-sm bg-green text-darkblue"
+                className="btn px-4 py-2 mr-5 rounded-md bg-green text-darkblue"
                 target="_blank"
                 rel="noreferrer"
               >Live</a
               >
               <a
                 href="https://github.com/tessa-tum/filmflix-Angular-client"
-                className="btn px-4 py-2 mr-5 rounded-sm bg-green text-darkblue"
+                className="btn px-4 py-2 mr-5 rounded-md bg-green text-darkblue"
                 target="_blank"
                 rel="noreferrer"
               >Code</a
@@ -58,16 +58,16 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="projects-grid-item">
+        <div className="projects-grid-item shadow-lg shadow-[black] rounded-md min-h-full">
           <div className="item-image">
             <img
-              className="transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0"
+              className="transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 rounded-md"
               src={filmflixReactApp}
               alt="placeholder-app-screenshot"
               width="100%"
             />
           </div>
-          <div className="item-text">
+          <div className="item-text p-8">
             <h4 className="text-xl sm:text-2xl tracking-tighter text-white mb-2 mt-2 sm:mb-4 sm:mt-4">filmflix React</h4>
             <p>
               filmflix React is a fresh interpretation of the original filmflix app frontend,
@@ -76,17 +76,17 @@ const Projects = () => {
               complements a pre-existing RESTful API and MongoDB database, which can also be found here
               (see filmflix API).
             </p>
-            <div className="item-links space-y-4">
+            <div className="item-links space-y-4 mt-8 mb-2">
               <a
                 href="https://filmflix-project.netlify.app/"
-                className="btn px-4 py-2 mr-5 rounded-sm bg-white text-darkblue"
+                className="btn px-4 py-2 mr-5 rounded-md bg-white text-darkblue"
                 target="_blank"
                 rel="noreferrer"
               >Live</a
               >
               <a
                 href="https://github.com/tessa-tum/filmflix-client"
-                className="btn px-4 py-2 mr-5 rounded-sm bg-white text-darkblue"
+                className="btn px-4 py-2 mr-5 rounded-md bg-white text-darkblue"
                 target="_blank"
                 rel="noreferrer"
               >Code</a
@@ -95,33 +95,33 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="projects-grid-item">
+        <div className="projects-grid-item shadow-lg shadow-[black] rounded-md min-h-full">
           <div className="item-image">
             <img
-              className="transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0"
+              className="transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 rounded-md"
               src={filmflixApiApp}
               alt="placeholder-app-screenshot"
               width="100%"
             />
           </div>
-          <div className="item-text">
+          <div className="item-text p-8">
             <h4 className="text-xl sm:text-2xl tracking-tighter text-turquoise mb-2 mt-2 sm:mb-4 sm:mt-4">filmflix API</h4>
             <p>
               This RESTful API represents the backend of the filmflix app movie database.
               It is built with Node.js and Express and is connected to a MongoDB Atlas cloud database.
               The API is hosted on Heroku.
             </p>
-            <div className="item-links space-y-4">
+            <div className="item-links space-y-4 mt-8 mb-2">
               <a
                 href="https://filmflix-api.herokuapp.com/"
-                className="btn px-4 py-2 mr-5 rounded-sm bg-turquoise text-darkblue"
+                className="btn px-4 py-2 mr-5 rounded-md bg-turquoise text-darkblue"
                 target="_blank"
                 rel="noreferrer"
               >Live</a
               >
               <a
                 href="https://github.com/tessa-tum/filmflix-api"
-                className="btn px-4 py-2 mr-5 rounded-sm bg-turquoise text-darkblue"
+                className="btn px-4 py-2 mr-5 rounded-md bg-turquoise text-darkblue"
                 target="_blank"
                 rel="noreferrer"
               >Code</a
@@ -130,33 +130,33 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="projects-grid-item">
+        <div className="projects-grid-item shadow-lg shadow-[black] rounded-md min-h-full">
           <div className="item-image">
             <img
-              className="transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0"
+              className="transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 rounded-md"
               src={devtrecApp}
               alt="placeholder-app-screenshots"
               width="100%"
             />
           </div>
-          <div className="item-text">
+          <div className="item-text p-8">
             <h4 className="text-xl sm:text-2xl tracking-tighter text-pink mb-2 mt-2 sm:mb-4 sm:mt-4">DevTrec app</h4>
             <p>
               DevTrec is a progressive web application that helps users to stay informed about upcoming web development events near
               or in their city. The app has been built using test/behaviour-driven development techniques and is designed as a serverless
               PWA. DevTrec uses the Google Calendar API to fetch and show upcoming events. Serverless functions are hosted on AWS.
             </p>
-            <div className="item-links space-y-4">
+            <div className="item-links space-y-4 mt-8 mb-2">
               <a
                 href="https://tessa-tum.github.io/devtrec/"
-                className="btn px-4 py-2 mr-5 rounded-sm bg-pink text-darkblue"
+                className="btn px-4 py-2 mr-5 rounded-md bg-pink text-darkblue"
                 target="_blank"
                 rel="noreferrer"
               >Live</a
               >
               <a
                 href="https://github.com/tessa-tum/devtrec"
-                className="btn px-4 py-2 mr-5 rounded-sm bg-pink text-darkblue"
+                className="btn px-4 py-2 mr-5 rounded-md bg-pink text-darkblue"
                 target="_blank"
                 rel="noreferrer"
               >Code</a
@@ -165,16 +165,16 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="projects-grid-item">
+        <div className="projects-grid-item shadow-lg shadow-[black] rounded-md min-h-full">
           <div className="item-image">
             <img
-              className="transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0"
+              className="transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 rounded-md"
               src={nativeChatApp}
               alt="pokedex-app-screenshot"
               width="100%"
             />
           </div>
-          <div className="item-text">
+          <div className="item-text p-8">
             <h4 className="text-xl sm:text-2xl tracking-tighter text-tang mb-2 mt-2 sm:mb-4 sm:mt-4">Native chat app</h4>
             <p>
               This native chat app allows users to enter a chat room, exchange messages,
@@ -182,10 +182,10 @@ const Projects = () => {
               React Native as well as Google Firestore/base for storage and authentication. Chat funcionalities are
               provided by the React Native library Gifted Chat.
             </p>
-            <div className="item-links space-y-4">
+            <div className="item-links space-y-4 mt-8 mb-2">
               <a
                 href="https://github.com/tessa-tum/chat-app"
-                className="btn px-4 py-2 mr-5 rounded-sm bg-tang text-darkblue"
+                className="btn px-4 py-2 mr-5 rounded-md bg-tang text-darkblue"
                 target="_blank"
                 rel="noreferrer"
               >Code</a
@@ -194,16 +194,16 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="projects-grid-item">
+        <div className="projects-grid-item shadow-lg shadow-[black] rounded-md min-h-full">
           <div className="item-image">
             <img
-              className="transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0"
+              className="transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 rounded-md"
               src={pokeDexApp}
               alt="placeholder-app-screenshot"
               width="100%"
             />
           </div>
-          <div className="item-text">
+          <div className="item-text p-8">
             <h4 className="text-xl sm:text-2xl tracking-tighter text-yellow mb-2 mt-2 sm:mb-4 sm:mt-4">Pokédex app</h4>
             <p>
               The app loads data from an external API (the PokéAPI) to display and provide details for 150 Pokémons.
@@ -211,17 +211,17 @@ const Projects = () => {
               displays more details about a specific Pokémon. It is built using HTML, CSS, and JavaScript, and makes
               use of jQuery 3.6.3 and Bootstrap 5.3.0.
             </p>
-            <div className="item-links space-y-4">
+            <div className="item-links space-y-4 mt-8 mb-2">
               <a
                 href="https://tessa-tum.github.io/js-pokedex/"
-                className="btn px-4 py-2 mr-5 rounded-sm bg-yellow text-darkblue"
+                className="btn px-4 py-2 mr-5 rounded-md bg-yellow text-darkblue"
                 target="_blank"
                 rel="noreferrer"
               >Live</a
               >
               <a
                 href="https://github.com/tessa-tum/js-pokedex"
-                className="btn px-4 py-2 mr-5 rounded-sm bg-yellow text-darkblue"
+                className="btn px-4 py-2 mr-5 rounded-md bg-yellow text-darkblue"
                 target="_blank"
                 rel="noreferrer"
               >Code</a

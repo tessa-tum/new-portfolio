@@ -1,5 +1,6 @@
 import React from "react";
 import curlyBracketsStage from "../assets/curly-brackets-stage.svg";
+import { BsArrowRight } from 'react-icons/bs';
 
 const Stage = () => {
   return (
@@ -17,10 +18,13 @@ const Stage = () => {
 
           <a
             href="/#projects"
-            className=" btn font-mono text-lg text-lightblue px-6 py-3 border-lightblue border rounded-md hover:bg-white 
+            className="group text-lightblue text-lg w-fit px-6 py-3 my-2 flex items-center border-lightblue border rounded-md cursor-pointer hover:bg-white 
             hover:text-darkblue hover:border-white"
           >
             View projects
+            <span className="group-hover:rotate-90 duration-300">
+              <BsArrowRight size={25} className="ml-3" />
+            </span>
           </a>
 
         </div>

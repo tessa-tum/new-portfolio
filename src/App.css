@@ -11,10 +11,6 @@ body {
   font-family: monospace;
 }
 
-.main-btn {
-  @apply inline-flex items-center space-x-2 font-mono px-6 py-3 border-white border rounded-md hover:bg-white;
-}
-
 /* navbar */
 
 nav li a {
@@ -30,24 +26,53 @@ nav li a:hover {
   duration-500 border-b-2 border-lightblue border-opacity-20 md:border-b-0;
 }
 
-/* projects section*/
+/* btn scroll to top */
 
-.projects-grid-item {
-  box-shadow: 5px 5px 5px 5px #101326;
-  transition: box-shadow 0.3s ease;
-  border-radius: 3px;
-  min-height: 100%;
+.btn-to-top{
+  position: relative;
 }
 
-.item-image {
-  border-radius: 3px;
+.triangle-position{
+  position: fixed;
+  bottom: 42px;
+  right: 27px;
+  z-index: 20;
 }
 
-.item-text {
-  padding: 20px;
+.triangle-style{
+  background-color: #101326;
+  border: 2px solid #e69cff; 
+  color: #e69cff;
+  cursor: pointer;
+  border-radius: 50%;
+  padding: 7px;
+  height: 40px;
+  width: 40px;
+  animation: bouncetriangle 3s ease-in-out infinite;
+  transition: all .5s ease-in-out;
 }
 
-.item-links {
-  margin-top: 35px;
-  margin-bottom: 25px;
+.triangle-style:hover{
+  background: #e69cff;
+  color: #101326;
+  border: 2px solid #101326;
+  animation: none;
+}
+
+@keyframes bouncetriangle {
+  0%{
+    transform: translateY(0px);
+  }
+  25%{
+    transform: translateY(20px);
+  }
+  50%{
+    transform: translateY(0px);
+  }
+  75%{
+    transform: translateY(-20px);
+  }
+  100%{
+    transform: translateY(0px);
+  }
 }

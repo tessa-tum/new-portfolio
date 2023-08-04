@@ -4,6 +4,9 @@ import {
   PiLinkedinLogoThin,
   PiGithubLogoThin,
 } from "react-icons/pi";
+import {
+  TfiEmail
+} from "react-icons/tfi";
 
 const Contact = () => {
   return (
@@ -20,10 +23,13 @@ const Contact = () => {
           <div>
             <a
               href="mailto:tessa.tumbraegel@protonmail.com"
-              className=" btn font-mono text-lg text-white px-6 py-3 border-white border rounded-md hover:bg-white 
-            hover:text-darkblue hover:border-white"
+              className="group text-white text-lg w-fit px-6 py-3 my-2 flex items-center border-white border rounded-md cursor-pointer hover:bg-white 
+              hover:text-darkblue hover:border-white"
             >
-              Send Email
+              Email me
+              <span>
+              <TfiEmail size={20} className="ml-4" />
+            </span>
             </a>
           </div>
 

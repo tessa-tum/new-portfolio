@@ -1,5 +1,6 @@
 import "./App.css";
 import Header from "./components/Header";
+import ToTopScroll from "./components/ToTopScroll";
 import Stage from "./components/Stage";
 import About from "./components/About";
 import Skills from "./components/Skills";
@@ -11,6 +12,7 @@ const App= () => {
   return (
     <div>
       <Header />
+      <ToTopScroll />
       <Stage />
       <About />
       <Skills />
