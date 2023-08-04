@@ -4,7 +4,7 @@ import tagBracketsAbout from "../assets/tag-brackets-about.svg";
 const About = () => {
   return (
     <section id="about" className="bg-mediumblue px-9 sm:px-16 py-32 text-white">
-      <div className="container mx-auto grid md:grid-cols-2 items-center justify-center md:justify-between">
+      <div className="container mx-auto grid md:grid-cols-2 items-center justify-center md:justify-between"> 
         <div className="about-info">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl mb-8 sm:mb-12 text-tang">About me
           </h2>
@@ -12,7 +12,7 @@ const About = () => {
           <p className="pb-5 text-lg">
             As a  <span className="text-tang">freshly trained full-stack web developer</span>, I find great joy in combining my previous
             experience of over 6 years in political communications with my newfound
-            passion for web devlopment.
+            passion for web development.
           </p>
           <p className="pb-5 text-lg">
             <span className="text-tang">Previously</span>, I had the opportunity to collaborate with stakeholders of all backgrounds,

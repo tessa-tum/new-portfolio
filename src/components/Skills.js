@@ -4,11 +4,11 @@ import suareBracketsSkills from "../assets/square-brackets-skills.svg";
 const Skills = () => {
   return (
     <section id="skills" className="px-9 sm:px-16 py-32 text-white">
-      <div className="container mx-auto grid md:grid-cols-2 items-center justify-center sm:justify-between">
+      <div className="container mx-auto grid lg:grid-cols-2 items-center">
         <div className="skills-info">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl mb-8 sm:mb-12 text-green">Skills</h2>
 
-          <div className="grid w-full grid-cols-[repeat(auto-fill,9rem)] gap-x-24 gap-y-8 text-lg leading-loose">
+          <div className="grid w-full grid-cols-[repeat(auto-fill,10rem)] gap-x-4 sm:gap-x-8 md:gap-x-16 2xl:gap-x-20 gap-y-10 text-lg leading-loose">
             <ul>
               <li>HTML <span className="text-green">+++</span></li>
               <li>CSS <span className="text-green">+++</span></li>
