@@ -28,20 +28,20 @@ nav li a:hover {
 
 /* btn scroll to top */
 
-.btn-to-top{
+.btn-to-top {
   position: relative;
 }
 
-.triangle-position{
+.triangle-position {
   position: fixed;
   bottom: 42px;
   right: 27px;
   z-index: 20;
 }
 
-.triangle-style{
+.triangle-style {
   background-color: #101326;
-  border: 2px solid #e69cff; 
+  border: 2px solid #e69cff;
   color: #e69cff;
   cursor: pointer;
   border-radius: 50%;
@@ -49,10 +49,10 @@ nav li a:hover {
   height: 40px;
   width: 40px;
   animation: bouncetriangle 3s ease-in-out infinite;
-  transition: all .5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
-.triangle-style:hover{
+.triangle-style:hover {
   background: #e69cff;
   color: #101326;
   border: 2px solid #101326;
@@ -60,19 +60,19 @@ nav li a:hover {
 }
 
 @keyframes bouncetriangle {
-  0%{
+  0% {
     transform: translateY(0px);
   }
-  25%{
+  25% {
     transform: translateY(20px);
   }
-  50%{
+  50% {
     transform: translateY(0px);
   }
-  75%{
+  75% {
     transform: translateY(-20px);
   }
-  100%{
+  100% {
     transform: translateY(0px);
   }
 }

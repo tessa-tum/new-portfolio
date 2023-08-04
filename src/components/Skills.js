@@ -7,12 +7,12 @@ const Skills = () => {
       <div className="container mx-auto grid lg:grid-cols-2 items-center">
         <div className="skills-info">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl mb-8 sm:mb-12 text-green">Skills</h2>
+
           <p className="mb-12 text-lg">
             Here is a list of some of the technologies I've worked with.
           </p>
 
           <div className='text-lg grid grid-cols-2 sm:grid-cols-4 gap-5 w-full'>
-
             <div className='bg-mediumblue shadow-md shadow-[black] text-center rounded-md'>
               <div className="mx-6 my-4">
                 <p >HTML</p>
@@ -129,7 +129,6 @@ const Skills = () => {
             className="mr-auto ml-auto mt-auto md:w-40 lg:w-60 xl:w-60 hidden lg:flex"
           />
         </div>
-
       </div>
     </section>
   );

@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
-
 const Header = () => {
   const [toggle, setToggle] = useState(false);
   const handleToggle = () => setToggle(!toggle);
@@ -25,7 +24,6 @@ const Header = () => {
             <a href="/#projects">Projects</a>
           </li>
           <li>
-
           </li>
           <li>
             <a href="/#contact">Contact</a>

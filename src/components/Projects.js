@@ -14,14 +14,14 @@ const Projects = () => {
         <div className="projects-info">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl mb-8 sm:mb-12 text-white">Projects
           </h2>
+
           <p className="mb-12 text-lg">
             Here is a list of some of my projects.
           </p>
+
         </div>
       </div>
-
       <div className="projects container mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-11 text-lg">
-
         <div className="projects-grid-item shadow-lg shadow-[black] rounded-md min-h-full" >
           <div className="item-image">
             <img
@@ -232,9 +232,8 @@ const Projects = () => {
       </div>
 
     </section>
-
   );
-
 };
 
 export default Projects;
+

@@ -4,7 +4,7 @@ import tagBracketsAbout from "../assets/tag-brackets-about.svg";
 const About = () => {
   return (
     <section id="about" className="bg-mediumblue px-9 sm:px-16 py-32 text-white">
-      <div className="container mx-auto grid md:grid-cols-2 items-center justify-center md:justify-between"> 
+      <div className="container mx-auto grid md:grid-cols-2 items-center justify-center md:justify-between">
         <div className="about-info">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl mb-8 sm:mb-12 text-tang">About me
           </h2>
