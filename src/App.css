@@ -75,4 +75,16 @@ nav li a:hover {
   100% {
     transform: translateY(0px);
   }
-};
+}
+
+.btn-legal {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 35px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
