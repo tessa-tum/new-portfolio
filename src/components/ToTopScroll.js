@@ -4,6 +4,7 @@ import "../App.css";
 
 const ToTopScroll = () => {
   const [showToTopBtn, setShowToTopBtn] = useState(false);
+
   useEffect(() => {
     window.addEventListener("scroll", () => {
       if (window.scrollY > 400) {
@@ -13,12 +14,14 @@ const ToTopScroll = () => {
       }
     });
   }, []);
+
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
       behavior: "smooth",
     });
   };
+
   return (
     <div className="btn-to-top">
       {" "}
@@ -31,4 +34,5 @@ const ToTopScroll = () => {
     </div>
   );
 };
+
 export default ToTopScroll;

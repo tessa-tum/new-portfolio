@@ -23,7 +23,7 @@ const Contact = () => {
 
           <div>
             <a
-              href="mailto:tessa.tumbraegel@protonmail.com"
+              href="mailto:tessa.tumbraegel@proton.me"
               className="group text-white text-lg w-fit px-6 py-3 my-2 flex items-center border-white border rounded-md cursor-pointer hover:bg-white 
               hover:text-darkblue hover:border-white"
             >
