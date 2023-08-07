@@ -24,7 +24,7 @@ const Legal = () => {
                 <h3 className="relative px-5 pt-5 pb-2 text-xl">Legal notice</h3>
                 <div className="relative px-5 pt-3 pb-5 flex-auto">
                   <h5 className="text-md">Responsible for content & administration:</h5>
-                  <p className="mb-5">Tessa Tumbraegel - tessa.tumbraegel@proton.me</p>
+                  <p className="mb-5">Tessa Tumbraegel, Berlin</p>
                   <h5 className="text-md">Image credits:</h5>
                   <p>All images used on this website are either published specifying the appropriate image credits</p>
                   <p className="mb-5"> or the image rights rest with this website. </p>

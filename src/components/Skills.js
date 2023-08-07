@@ -15,6 +15,48 @@ const Skills = () => {
           <div className='text-lg grid grid-cols-2 sm:grid-cols-4 gap-5 w-full'>
             <div className='bg-mediumblue shadow-md shadow-[black] text-center rounded-md'>
               <div className="mx-6 my-4">
+                <p >Javascript</p>
+                <p className="text-green">++</p>
+              </div>
+            </div>
+
+            <div className='bg-mediumblue shadow-md shadow-[black] text-center rounded-md'>
+              <div className="mx-6 my-4">
+                <p >React</p>
+                <p className="text-green">++</p>
+              </div>
+            </div>
+
+            <div className='bg-mediumblue shadow-md shadow-[black] text-center rounded-md'>
+              <div className="mx-6 my-4">
+                <p >Tailwind</p>
+                <p className="text-green">++</p>
+              </div>
+            </div>
+
+            <div className='bg-mediumblue shadow-md shadow-[black] text-center rounded-md'>
+              <div className="mx-6 my-4">
+                <p >Bootstrap</p>
+                <p className="text-green">++</p>
+              </div>
+            </div>
+
+            <div className='bg-mediumblue shadow-md shadow-[black] text-center rounded-md'>
+              <div className="mx-6 my-4">
+                <p >Typescript</p>
+                <p className="text-green">+</p>
+              </div>
+            </div>
+
+            <div className='bg-mediumblue shadow-md shadow-[black] text-center rounded-md'>
+              <div className="mx-6 my-4">
+                <p >Angular</p>
+                <p className="text-green">+</p>
+              </div>
+            </div>
+
+            <div className='bg-mediumblue shadow-md shadow-[black] text-center rounded-md'>
+              <div className="mx-6 my-4">
                 <p >HTML</p>
                 <p className="text-green">+++</p>
               </div>
@@ -36,27 +78,6 @@ const Skills = () => {
 
             <div className='bg-mediumblue shadow-md shadow-[black] text-center rounded-md'>
               <div className="mx-6 my-4">
-                <p >Javascript</p>
-                <p className="text-green">++</p>
-              </div>
-            </div>
-
-            <div className='bg-mediumblue shadow-md shadow-[black] text-center rounded-md'>
-              <div className="mx-6 my-4">
-                <p >Typescript</p>
-                <p className="text-green">+</p>
-              </div>
-            </div>
-
-            <div className='bg-mediumblue shadow-md shadow-[black] text-center rounded-md'>
-              <div className="mx-6 my-4">
-                <p >React</p>
-                <p className="text-green">++</p>
-              </div>
-            </div>
-
-            <div className='bg-mediumblue shadow-md shadow-[black] text-center rounded-md'>
-              <div className="mx-6 my-4">
                 <p >React Native</p>
                 <p className="text-green">+</p>
               </div>
@@ -64,36 +85,15 @@ const Skills = () => {
 
             <div className='bg-mediumblue shadow-md shadow-[black] text-center rounded-md'>
               <div className="mx-6 my-4">
-                <p >Angular</p>
-                <p className="text-green">+</p>
-              </div>
-            </div>
-
-            <div className='bg-mediumblue shadow-md shadow-[black] text-center rounded-md'>
-              <div className="mx-6 my-4">
-                <p >Bootstrap</p>
-                <p className="text-green">++</p>
-              </div>
-            </div>
-
-            <div className='bg-mediumblue shadow-md shadow-[black] text-center rounded-md'>
-              <div className="mx-6 my-4">
-                <p >Tailwind</p>
-                <p className="text-green">++</p>
-              </div>
-            </div>
-
-            <div className='bg-mediumblue shadow-md shadow-[black] text-center rounded-md'>
-              <div className="mx-6 my-4">
                 <p >Node.js</p>
-                <p className="text-green">+</p>
+                <p className="text-green">++</p>
               </div>
             </div>
 
             <div className='bg-mediumblue shadow-md shadow-[black] text-center rounded-md'>
               <div className="mx-6 my-4">
                 <p >Express.js</p>
-                <p className="text-green">+</p>
+                <p className="text-green">++</p>
               </div>
             </div>
 
@@ -117,11 +117,17 @@ const Skills = () => {
                 <p className="text-green">++</p>
               </div>
             </div>
-          </div >
 
+            <div className='bg-mediumblue shadow-md shadow-[black] text-center rounded-md'>
+              <div className="mx-6 my-4">
+                <p >WordPress</p>
+                <p className="text-green">++</p>
+              </div>
+            </div>
+
+          </div >
           <p className="text-lg mt-16"><span className="text-green">6+</span> years project management experience</p>
         </div>
-
         <div className="skills-img">
           <img
             src={suareBracketsSkills}

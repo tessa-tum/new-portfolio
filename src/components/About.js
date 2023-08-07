@@ -15,18 +15,18 @@ const About = () => {
             passion for web development.
           </p>
           <p className="pb-5 text-lg">
-            <span className="text-tang">Previously</span>, I had the opportunity to collaborate with stakeholders of all backgrounds,
-            including the German government, political foundations and NGOs, where I honed my skills in identifying pain points
-            within their digital communication efforts and implementing effective solutions.
+            <span className="text-tang">Previously</span>, I had the opportunity to work alongside stakeholders from the public sector, 
+            including the German government, political foundations and NGOs, analyzing their digital communications and formulating 
+            effective strategies for improvement.
           </p>
           <p className="pb-5 text-lg">
-            <span className="text-tang">Recently</span>, I decided to pursue a dream of mine and enrolled in CareerFoundry's Full-Stack Web
-            Development Program. Through this program, I have gained expertise in JavaScript, TypeScript, React, Angular,
-            and a range of other technologies.
+            <span className="text-tang">Recently</span>, I decided to pursue a dream of mine and enroll in CareerFoundry's Full-Stack Web
+            Development Program. Through this program, I have gained expertise in a range of technologies, including JavaScript, TypeScript, 
+            React, Angular, and more.
           </p>
           <p className="pb-5 text-lg">
-            <span className="text-tang">Now </span>I am eager to further expand my software development skills and continue working
-            as a detail-oriented developer who approaches projects with a comprehensive understanding of the development process.
+            <span className="text-tang">Now </span>I am enthusiastic about further expanding my software development skills and continuing my 
+            work as a detail-oriented developer with a comprehensive understanding of the development process.
           </p>
         </div>
 
