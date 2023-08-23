@@ -122,7 +122,11 @@ progress {
   vertical-align: baseline;
 }
 
-:is(::-webkit-inner-spin-button, ::-webkit-outer-spin-button) {
+::-webkit-inner-spin-button {
+  height: auto;
+}
+
+::-webkit-outer-spin-button {
   height: auto;
 }
 
@@ -395,8 +399,12 @@ img, video {
   margin-top: 4rem;
 }
 
-.mt-2 {
-  margin-top: .5rem;
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
 }
 
 .mt-8 {
@@ -407,20 +415,8 @@ img, video {
   margin-top: auto;
 }
 
-.mt-4 {
-  margin-top: 1rem;
-}
-
 .mb-4 {
   margin-bottom: 1rem;
-}
-
-.mt-5 {
-  margin-top: 1.25rem;
-}
-
-.mt-6 {
-  margin-top: 1.5rem;
 }
 
 .block {
@@ -476,6 +472,18 @@ img, video {
 
 .cursor-pointer {
   cursor: pointer;
+}
+
+.list-disc {
+  list-style-type: disc;
+}
+
+.list-none {
+  list-style-type: none;
+}
+
+.list-decimal {
+  list-style-type: decimal;
 }
 
 .grid-cols-2 {
@@ -671,8 +679,33 @@ img, video {
   padding-top: 1.25rem;
 }
 
+.pl-5 {
+  padding-left: 1.25rem;
+}
+
+.pl-8 {
+  padding-left: 2rem;
+}
+
+.pl-6 {
+  padding-left: 1.5rem;
+}
+
+.pl-1 {
+  padding-left: .25rem;
+}
+
+.pl-14 {
+  padding-left: 3.5rem;
+}
+
 .text-center {
   text-align: center;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .text-3xl {
@@ -690,11 +723,6 @@ img, video {
   line-height: 1.75rem;
 }
 
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
 .font-bold {
   font-weight: 700;
 }
@@ -705,6 +733,10 @@ img, video {
 
 .uppercase {
   text-transform: uppercase;
+}
+
+.italic {
+  font-style: italic;
 }
 
 .leading-tight {
@@ -910,16 +942,24 @@ nav li a:hover {
     margin-bottom: 3rem;
   }
 
-  .sm\:mb-4 {
-    margin-bottom: 1rem;
-  }
-
   .sm\:mt-12 {
     margin-top: 3rem;
   }
 
-  .sm\:mt-4 {
-    margin-top: 1rem;
+  .sm\:mb-10 {
+    margin-bottom: 2.5rem;
+  }
+
+  .sm\:mb-1 {
+    margin-bottom: .25rem;
+  }
+
+  .sm\:mb-6 {
+    margin-bottom: 1.5rem;
+  }
+
+  .sm\:mb-4 {
+    margin-bottom: 1rem;
   }
 
   .sm\:grid-cols-4 {
@@ -931,9 +971,12 @@ nav li a:hover {
     padding-right: 4rem;
   }
 
-  .sm\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
+  .sm\:pl-10 {
+    padding-left: 2.5rem;
+  }
+
+  .sm\:pl-14 {
+    padding-left: 3.5rem;
   }
 
   .sm\:text-4xl {
@@ -949,6 +992,16 @@ nav li a:hover {
   .sm\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
+  }
+
+  .sm\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .sm\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 }
 
@@ -1016,6 +1069,26 @@ nav li a:hover {
   .lg\:text-6xl {
     font-size: 3.75rem;
     line-height: 1;
+  }
+
+  .lg\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .lg\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .lg\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .lg\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 }
 

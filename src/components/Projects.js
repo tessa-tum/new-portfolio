@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { FiLink } from "react-icons/fi";
 import { FiGithub } from "react-icons/fi";
 import filmflixAngularApp from "../assets/filmflix-angular-app.png"
@@ -68,6 +69,18 @@ const Projects = () => {
                   <FiGithub size={14} className="ml-4" />
                 </span>
               </a>
+              
+              <Link to="/casestudy"
+                className="group text-white w-fit px-3 py-1 mr-4 rounded-md flex items-center border-white border 
+              cursor-pointer hover:bg-white hover:text-darkblue hover:border-white"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Case study
+                <span>
+                  <FiLink size={14} className="ml-4" />
+                </span>
+              </Link>
             </div>
 
           </div>
