@@ -355,6 +355,10 @@ img, video {
   margin-bottom: .5rem;
 }
 
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
 .mb-5 {
   margin-bottom: 1.25rem;
 }
@@ -415,8 +419,8 @@ img, video {
   margin-top: auto;
 }
 
-.mb-4 {
-  margin-bottom: 1rem;
+.mb-7 {
+  margin-bottom: 1.75rem;
 }
 
 .block {
@@ -443,6 +447,10 @@ img, video {
   display: none;
 }
 
+.h-auto {
+  height: auto;
+}
+
 .min-h-full {
   min-height: 100%;
 }
@@ -454,6 +462,14 @@ img, video {
 
 .w-full {
   width: 100%;
+}
+
+.max-w-md {
+  max-width: 28rem;
+}
+
+.max-w-lg {
+  max-width: 32rem;
 }
 
 .flex-auto {
@@ -472,14 +488,6 @@ img, video {
 
 .cursor-pointer {
   cursor: pointer;
-}
-
-.list-disc {
-  list-style-type: disc;
-}
-
-.list-none {
-  list-style-type: none;
 }
 
 .list-decimal {
@@ -635,6 +643,21 @@ img, video {
   padding-bottom: 1.5rem;
 }
 
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 .pb-0 {
   padding-bottom: 0;
 }
@@ -679,24 +702,8 @@ img, video {
   padding-top: 1.25rem;
 }
 
-.pl-5 {
-  padding-left: 1.25rem;
-}
-
-.pl-8 {
-  padding-left: 2rem;
-}
-
-.pl-6 {
-  padding-left: 1.5rem;
-}
-
-.pl-1 {
-  padding-left: .25rem;
-}
-
-.pl-14 {
-  padding-left: 3.5rem;
+.pt-8 {
+  padding-top: 2rem;
 }
 
 .text-center {
@@ -723,6 +730,11 @@ img, video {
   line-height: 1.75rem;
 }
 
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -733,10 +745,6 @@ img, video {
 
 .uppercase {
   text-transform: uppercase;
-}
-
-.italic {
-  font-style: italic;
 }
 
 .leading-tight {
@@ -938,32 +946,33 @@ nav li a:hover {
 }
 
 @media (width >= 640px) {
-  .sm\:mb-12 {
-    margin-bottom: 3rem;
-  }
-
-  .sm\:mt-12 {
-    margin-top: 3rem;
-  }
-
   .sm\:mb-10 {
     margin-bottom: 2.5rem;
   }
 
-  .sm\:mb-1 {
-    margin-bottom: .25rem;
+  .sm\:mb-12 {
+    margin-bottom: 3rem;
   }
 
   .sm\:mb-6 {
     margin-bottom: 1.5rem;
   }
 
-  .sm\:mb-4 {
-    margin-bottom: 1rem;
+  .sm\:mt-12 {
+    margin-top: 3rem;
+  }
+
+  .sm\:max-w-md {
+    max-width: 28rem;
   }
 
   .sm\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .sm\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
   }
 
   .sm\:px-16 {
@@ -971,12 +980,13 @@ nav li a:hover {
     padding-right: 4rem;
   }
 
-  .sm\:pl-10 {
-    padding-left: 2.5rem;
-  }
-
   .sm\:pl-14 {
     padding-left: 3.5rem;
+  }
+
+  .sm\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 
   .sm\:text-4xl {
@@ -987,16 +997,6 @@ nav li a:hover {
   .sm\:text-5xl {
     font-size: 3rem;
     line-height: 1;
-  }
-
-  .sm\:text-3xl {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
-  }
-
-  .sm\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
   }
 
   .sm\:text-xl {
@@ -1018,12 +1018,30 @@ nav li a:hover {
     width: 10rem;
   }
 
+  .md\:w-80 {
+    width: 20rem;
+  }
+
+  .md\:max-w-md {
+    max-width: 28rem;
+  }
+
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .md\:justify-between {
     justify-content: space-between;
+  }
+
+  .md\:px-12 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .md\:px-14 {
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
   }
 
   .md\:pb-0 {
@@ -1053,12 +1071,32 @@ nav li a:hover {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
+  .lg\:px-20 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .lg\:px-2 {
+    padding-left: .5rem;
+    padding-right: .5rem;
+  }
+
   .lg\:pl-20 {
     padding-left: 5rem;
   }
 
   .lg\:pr-20 {
     padding-right: 5rem;
+  }
+
+  .lg\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .lg\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 
   .lg\:text-5xl {
@@ -1070,31 +1108,23 @@ nav li a:hover {
     font-size: 3.75rem;
     line-height: 1;
   }
-
-  .lg\:text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
-  }
-
-  .lg\:text-3xl {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
-  }
-
-  .lg\:text-xl {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-  }
-
-  .lg\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
-  }
 }
 
 @media (width >= 1280px) {
   .xl\:w-60 {
     width: 15rem;
+  }
+
+  .xl\:px-28 {
+    padding-left: 7rem;
+    padding-right: 7rem;
+  }
+}
+
+@media (width >= 1536px) {
+  .\32 xl\:px-32 {
+    padding-left: 8rem;
+    padding-right: 8rem;
   }
 }
 
