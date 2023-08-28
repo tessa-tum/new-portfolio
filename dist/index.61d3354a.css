@@ -339,6 +339,11 @@ img, video {
   margin-bottom: 1.5rem;
 }
 
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 .mb-1 {
   margin-bottom: .25rem;
 }
@@ -353,6 +358,10 @@ img, video {
 
 .mb-2 {
   margin-bottom: .5rem;
+}
+
+.mb-3 {
+  margin-bottom: .75rem;
 }
 
 .mb-4 {
@@ -421,6 +430,14 @@ img, video {
 
 .mt-auto {
   margin-top: auto;
+}
+
+.mt-2 {
+  margin-top: .5rem;
+}
+
+.mt-1 {
+  margin-top: .25rem;
 }
 
 .block {
@@ -496,6 +513,10 @@ img, video {
 
 .flex-col {
   flex-direction: column;
+}
+
+.place-items-center {
+  place-items: center;
 }
 
 .items-center {
@@ -662,6 +683,10 @@ img, video {
 
 .pb-5 {
   padding-bottom: 1.25rem;
+}
+
+.pb-8 {
+  padding-bottom: 2rem;
 }
 
 .pl-10 {
@@ -952,6 +977,10 @@ nav li a:hover {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
+  .sm\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
   .sm\:px-10 {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
@@ -1022,6 +1051,14 @@ nav li a:hover {
     width: 15rem;
   }
 
+  .lg\:w-0 {
+    width: 0;
+  }
+
+  .lg\:w-40 {
+    width: 10rem;
+  }
+
   .lg\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1064,9 +1101,18 @@ nav li a:hover {
     width: 15rem;
   }
 
+  .xl\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
   .xl\:px-28 {
     padding-left: 7rem;
     padding-right: 7rem;
+  }
+
+  .xl\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
   }
 }
 
