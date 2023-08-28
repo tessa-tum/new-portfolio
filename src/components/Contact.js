@@ -11,7 +11,7 @@ import {
 const Contact = () => {
   return (
     <section id="contact" className="px-9 sm:px-16 py-32 text-white">
-      <div className="container mx-auto grid md:grid-cols-2 items-center justify-center md:justify-between">
+      <div className="container mx-auto grid lg:grid-cols-2 items-center justify-center md:justify-between">
         <div className="contact-info">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl mb-8 sm:mb-12 text-pink">Contact me
           </h2>
@@ -65,7 +65,7 @@ const Contact = () => {
           <img
             src={roundBracketsContact}
             alt="placeholder-img"
-            className="mr-auto ml-auto mt-auto md:w-40 lg:w-60 xl:w-60 hidden lg:flex"
+            className="mr-auto ml-auto mt-auto lg:w-40 xl:w-60 hidden lg:flex"
           />
         </div>
       </div>

@@ -7,7 +7,7 @@ const Stage = () => {
     <section id="stage" className="px-9 sm:px-16 py-32 text-white">
       <div className="container mx-auto grid lg:grid-cols-2 items-center justify-center md:justify-between">
         <div className="stage-info md:pb-0">
-          <h1 className="font-bold text-3xl sm:text-5xl md:text-5xl lg:text-6xl tracking-tight leading-tight mb-8 sm:mb-12">
+          <h1 className="font-bold text-3xl sm:text-5xl md:text-5xl xl:text-6xl tracking-tight leading-tight mb-8 sm:mb-12">
             Hello! <br />
             I'm <span className="text-lightblue">Tessa</span>, a full-stack web developer based in Berlin, Germany.
           </h1>
@@ -32,7 +32,7 @@ const Stage = () => {
           <img
             src={curlyBracketsStage}
             alt="placeholder-img"
-            className="mr-auto ml-auto mt-auto md:w-40 lg:w-60 xl:w-60 hidden lg:flex animate-spin-slow"
+            className="mr-auto ml-auto mt-auto md:w-40 xl:w-60 hidden lg:flex animate-spin-slow"
           />
         </div>
       </div>
