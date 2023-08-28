@@ -27,7 +27,8 @@ const About = () => {
           <p className="text-tang text-lg mb-3 flex">I am a lifelong learner and creative problem-solver.</p>
           <p className="pb-8 text-lg">
             Recently, I have transitioned into a more technical role driven by my passion for coding and creative problem-solving. I wanted to deepen my
-            understanding of web development and learn how to build robust products from the start.
+            understanding of web development and learn how to build robust, user-centric products from the start. Developing code sparks my curiosity and
+            satisfies my joy in solving problems and crafting useful, innovative solutions.
           </p>
 
           <p className="text-tang text-lg mb-3 flex">I have a cross-functional skill set.</p>
