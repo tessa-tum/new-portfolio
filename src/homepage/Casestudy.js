@@ -4,6 +4,8 @@ import csMovieViews from "../assets/cs-movie-views.png";
 import csEndpoints from "../assets/cs-endpoints.png";
 import csDataflow from "../assets/cs-data-flow.png";
 import csChallenges from "../assets/cs-challenges.png"
+import { FiLink } from "react-icons/fi";
+import { FiGithub } from "react-icons/fi";
 
 const Casestudy = () => {
   return (
@@ -160,15 +162,69 @@ const Casestudy = () => {
 
         <h3 className="text-3xl lg:text-4xl mb-8 text-white">Future steps</h3>
         <p className="mb-4 text-lg">
-          Here are a few ideas to further enhance the user experience of Filmflix:
+          Here are a few ideas to further enhance the user experience of filmflix:
         </p>
-        <ul className="list-decimal pl-10 sm:pl-14 text-lg">
+        <ul className="list-decimal pl-10 sm:pl-14 text-lg mb-8">
           <li>Expand the movie selection in the database.</li>
           <li>Create director and genre views to provide more information in those areas.</li>
           <li>Include information on actors.</li>
           <li>Add a "where to watch" section that links to online platforms for buying or streaming.</li>
           <li>Provide external resource links such as articles or blog posts.</li>
         </ul>
+
+        <h3 className="text-3xl lg:text-4xl mb-8 text-white">Links</h3>
+
+        <p className="mb-4 text-lg">filmflix demo (React):</p>
+        <div className="flex flex-row">
+          <a
+            href="https://filmflix-project.netlify.app/login"
+            className="group text-white w-fit px-3 py-1 mr-4 rounded-md flex items-center border-white border 
+        cursor-pointer hover:bg-white hover:text-darkblue hover:border-white mb-4 text-lg"
+            target="_blank"
+            rel="noreferrer"
+          >Live
+            <span>
+              <FiLink size={14} className="ml-4" />
+            </span>
+          </a>
+          <a
+            href="https://github.com/tessa-tum/filmflix-client"
+            className="group text-white w-fit px-3 py-1 mr-4 rounded-md flex items-center border-white border 
+        cursor-pointer hover:bg-white hover:text-darkblue hover:border-white mb-4 text-lg"
+            target="_blank"
+            rel="noreferrer"
+          >Code
+            <span>
+              <FiGithub size={14} className="ml-4" />
+            </span>
+          </a>
+        </div>
+
+        <p className="mb-4 text-lg">filmflix demo (Angular):</p>
+        <div className="flex flex-row">
+          <a
+            href="https://tessa-tum.github.io/filmflix-Angular-client/"
+            className="group text-white w-fit px-3 py-1 mr-4 rounded-md flex items-center border-white border 
+        cursor-pointer hover:bg-white hover:text-darkblue hover:border-white mb-4 text-lg"
+            target="_blank"
+            rel="noreferrer"
+          >Live
+            <span>
+              <FiLink size={14} className="ml-4" />
+            </span>
+          </a>
+          <a
+            href="https://github.com/tessa-tum/filmflix-Angular-client"
+            className="group text-white w-fit px-3 py-1 mr-4 rounded-md flex items-center border-white border 
+        cursor-pointer hover:bg-white hover:text-darkblue hover:border-white mb-4 text-lg"
+            target="_blank"
+            rel="noreferrer"
+          >Code
+            <span>
+              <FiGithub size={14} className="ml-4" />
+            </span>
+          </a>
+        </div>
       </div>
     </section>
   );

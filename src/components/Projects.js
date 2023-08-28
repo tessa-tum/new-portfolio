@@ -44,7 +44,7 @@ const Projects = () => {
             </p>
             <p className="mt-6 text-lightblue">Tech: JavaScript, JSX // React // Bootstrap // HTML // SCSS // Parcel</p>
 
-            <div className="item-links space-y-4 mt-8 mb-2">
+            <div className="item-links flex flex-row mt-8 mb-4">
               <a
                 href="https://filmflix-project.netlify.app/"
                 className="group text-white w-fit px-3 py-1 mr-4 rounded-md flex items-center border-white border 
@@ -69,6 +69,9 @@ const Projects = () => {
                   <FiGithub size={14} className="ml-4" />
                 </span>
               </a>
+              </div>
+
+              <div>
               
               <Link to="/casestudy"
                 className="group text-white w-fit px-3 py-1 mr-4 rounded-md flex items-center border-white border 
@@ -104,7 +107,7 @@ const Projects = () => {
             </p>
             <p className="mt-6 text-lightblue">Tech: Typescript // Angular // Angular Material // HTML // SCSS // Typedoc</p>
 
-            <div className="item-links space-y-4 mt-8 mb-2">
+            <div className="item-links flex flex-row mt-8 mb-2">
               <a
                 href="https://tessa-tum.github.io/filmflix-Angular-client/"
                 className="group text-white w-fit px-3 py-1 mr-4 rounded-md flex items-center border-white border 
@@ -152,7 +155,7 @@ const Projects = () => {
             </p>
             <p className="mt-6 text-lightblue">Tech: Javascript // Node.js + Express // MongoDB // mongoose // JSDoc</p>
 
-            <div className="item-links space-y-4 mt-8 mb-2">
+            <div className="item-links flex flex-row mt-8 mb-2">
               <a
                 href="https://filmflix-api.herokuapp.com/"
                 className="group text-white w-fit px-3 py-1 mr-4 rounded-md flex items-center border-white border 
@@ -201,7 +204,7 @@ const Projects = () => {
             <p className="mt-6 text-lightblue">Tech: JavaScript, JSX // React // React Testing Library // HTML // CSS // 
             Node.js + Express // AWS Lambda // Google OAuth2 // Recharts library</p>
 
-            <div className="item-links space-y-4 mt-8 mb-2">
+            <div className="item-links flex flex-row mt-8 mb-2">
               <a
                 href="https://tessa-tum.github.io/devtrec"
                 className="group text-white w-fit px-3 py-1 mr-4 rounded-md flex items-center border-white border 
@@ -249,7 +252,7 @@ const Projects = () => {
             <p className="mt-6 text-lightblue">Tech: JavaScript, JSX // React Native // Gifted Chat Library // Expo // Android Studio // 
             Google Firebase/store</p>
 
-            <div className="item-links space-y-4 mt-8 mb-2">
+            <div className="item-links flex flex-row mt-8 mb-2">
               <a
                 href="https://github.com/tessa-tum/chat-app"
                 className="group text-white w-fit px-3 py-1 mr-4 rounded-md flex items-center border-white border 
@@ -285,7 +288,7 @@ const Projects = () => {
             </p>
             <p className="mt-6 text-lightblue">Tech: JavaScript // Bootstrap // HTML // CSS // jQuery</p>
 
-            <div className="item-links space-y-4 mt-8 mb-2">
+            <div className="item-links flex flex-row mt-8 mb-2">
               <a
                 href="https://tessa-tum.github.io/js-pokedex/"
                 className="group text-white w-fit px-3 py-1 mr-4 rounded-md flex items-center border-white border 
